@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Laser",
+    "id": "123456789",
+    "tags": ["laser", "weapon"]
+  },
+  {
+    "name": "Explosion",
+    "id": "987654321",
+    "tags": ["explosion", "impact"]
+  }
+]
