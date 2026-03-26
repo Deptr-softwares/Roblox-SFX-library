@@ -1,0 +1,15 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+}
+
+.sound {
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  margin-right: 5px;
+}
