@@ -1,12 +1,16 @@
 [
   {
     "name": "Laser",
+    "in-store name": "laser",
     "id": "123456789",
-    "tags": ["laser", "weapon"]
+    "full id": "rbxassetid://123456789",
+    "tags": ["laser", "weapon", "pew pew"]
   },
   {
     "name": "Explosion",
+    "in-store name": "boom",
     "id": "987654321",
-    "tags": ["explosion", "impact"]
+    "full id": "rbxassetid://987654321",
+    "tags": ["explosion", "impact", "boom"]
   }
 ]
