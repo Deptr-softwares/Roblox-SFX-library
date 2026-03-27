@@ -1,5 +1,78 @@
-<input type="text" id="search" placeholder="Search sounds or tags..." />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roblox SFX Library</title>
 
-<div id="tags"></div>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+      padding: 20px;
+    }
 
-<div id="soundList"></div>
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    #search {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 8px;
+      background: #1a1a1a;
+      color: white;
+    }
+
+    .sound {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #2a2a2a;
+    }
+
+    .tags {
+      font-size: 12px;
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+
+    .tag {
+      background: #333;
+      padding: 3px 6px;
+      border-radius: 5px;
+      margin-right: 5px;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    button {
+      padding: 6px 10px;
+      margin-right: 5px;
+      border: none;
+      border-radius: 6px;
+      background: #333;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🎧 Roblox SFX Library</h1>
+
+  <input type="text" id="search" placeholder="Search sounds or tags..." />
+
+  <div id="soundList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
